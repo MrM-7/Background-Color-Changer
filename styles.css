@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+
+/* Navbar */
+
+#head{
+    /* background-color: #fdd785; */
+    color: #FF4848;
+    margin: 2% 5%;
+}
+h1{
+    display: inline-block;
+}
+
+.ch{
+    color: #9DDAC6;
+}
+
+.hex{
+     margin-left: 75%;
+     
+}
+
+.hex:hover{
+    background-color: gold;
+    transition: background-color .5s;
+}
+
+.hexv{
+    text-decoration: none;
+    color: #DF2E2E;
+}
+
+/* Main  */
+
+.main{
+    height: 100px;
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+}
+
+.main-head{
+    border: 2px solid black;
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.color{
+color: white;
+}
+
+.btn{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    color: black;
+}
