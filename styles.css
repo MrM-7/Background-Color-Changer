@@ -5,7 +5,6 @@
 /* Navbar */
 
 #head{
-    /* background-color: #fdd785; */
     color: #FF4848;
     margin: 2% 5%;
 }
@@ -13,23 +12,24 @@ h1{
     display: inline-block;
 }
 
-.ch{
-    color: #9DDAC6;
-}
-
 .hex{
      margin-left: 75%;
-     
+     background-color: black;
+     border-radius: 5px;
 }
 
-.hex:hover{
-    background-color: gold;
-    transition: background-color .5s;
+.hexv:hover{
+    color: black;
+    background-color: white;
 }
 
 .hexv{
     text-decoration: none;
-    color: #DF2E2E;
+    color: white;
+}
+
+.ch{
+    color: #420516;
 }
 
 /* Main  */
@@ -58,8 +58,15 @@ color: white;
     margin-top: 20px;
     font-family: 'Ubuntu', sans-serif;
     padding: 5px 20px;
+    border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;
     letter-spacing: 0.2rem;
     color: black;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition:  background-color 0.5s;
 }
