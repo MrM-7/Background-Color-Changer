@@ -16,16 +16,16 @@ h1{
      margin-left: 75%;
      background-color: black;
      border-radius: 5px;
-}
-
-.hexv:hover{
-    color: black;
-    background-color: white;
+     padding: 0.5%;
 }
 
 .hexv{
     text-decoration: none;
     color: white;
+}
+
+.hexv:hover{
+   
 }
 
 .ch{
